@@ -1,6 +1,6 @@
 # Revision App
 
-Tool to help high school students enhance learning and retention of the computer science concept. Conventional learning methods involve two ways of communication between learners and lecturers but with a less interactive approach. The web-based flashcard makes the student more engaged.
+Tool to help high school students enhance learning and retention of  various concepts. Conventional learning methods involve two ways of communication between learners and lecturers but with a less interactive approach. The web-based flashcard makes the student more engaged.
 
 All backend code follows [PEP8 style guidelines](https://www.python.org/dev/peps/pep-0008/). 
 
@@ -16,7 +16,7 @@ From the backend folder run `pip install requirements.txt`. All required package
 
 To run the application run the following commands: 
 ```
-export FLASK_APP=flaskr
+export FLASK_APP=main.py
 export FLASK_ENV=development
 flask run
 ```
