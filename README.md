@@ -29,8 +29,7 @@ The application is run on `http://127.0.0.1:5000/` by default and is a proxy in 
 
 From the frontend folder, run the following commands to start the client: 
 ```
-npm install // only once to install dependencies
-export NODE_OPTIONS=--openssl-legacy-provider
+npm install 
 npm start 
 ```
 
@@ -43,7 +42,7 @@ In order to run tests navigate to the backend folder and run the following comma
 dropdb trivia_test
 createdb trivia_test
 psql trivia_test < trivia.psql
-python test_flaskr.py
+python test_main.py
 ```
 
 The first time you run the tests, omit the dropdb command. 
